@@ -1,0 +1,39 @@
+{
+    "id": "f7b28747-bfa1-4957-8ed8-602a3acb93f8",
+    "name": "Extended User Personalization",
+    "publisher": "Florian Noever",
+    "version": "1.0.0.1",
+
+    "brief": "Export, import, copy, and selectively restore Business Central user personalizations",
+    "description": "A lightweight Microsoft Dynamics 365 Business Central extension for exporting user page personalizations to JSON, importing selected personalizations, and transferring them between users or environments.",
+    
+    "EULA": "https://github.com/Florian-Noever/BC-User-Personalization/blob/main/LICENSE",
+    "help": "https://github.com/Florian-Noever/BC-User-Personalization/issues",
+    "contextSensitiveHelpUrl": "https://github.com/Florian-Noever/BC-User-Personalization",
+    "url": "https://github.com/Florian-Noever/BC-User-Personalization",
+    
+    "logo": "assets/icon-x512.png",
+
+    "platform": "23.0.0.0",
+    "application": "23.0.0.0",
+    "target": "Cloud",
+    "runtime": "11.0",
+
+    "idRanges": [
+        {
+            "from": 52550,
+            "to": 52599
+        }
+    ],
+
+    "features": [
+        "TranslationFile",
+        "NoImplicitWith"
+    ],
+
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    }
+}
